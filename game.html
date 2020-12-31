@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title> Airplane </title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<script src="javascript/Home.js"> </script>
+	<script src="javascript/Variables.js"> </script>
+	<script src="javascript/JavaScript.js"> </script>
+	<script src="javascript/Code.js"> </script>
+	<style>
+		
+	</style>
+</head>
+<body oncontextmenu="return false">
+<div>
+	<canvas id="canvas" width="925" height="575"> </canvas>
+</div>
+<input type="submit" id="restart" name="restart" value="Restart" style="display:none; position:absolute; bottom:7px; font-size:16px; cursor:pointer;"></input>
+<script>
+	var canvas = document.getElementById("canvas");
+	var ctx = canvas.getContext("2d");
+	var W = canvas.width;
+	var H = canvas.height;
+	tutorial();
+</script>
+</body>
+</html>
